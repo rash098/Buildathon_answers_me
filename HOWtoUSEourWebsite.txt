@@ -1,0 +1,6 @@
+download wamp-server
+create a folder in the www folder in wamp directory on your computer
+unzip our files into that folder 
+and copy this into your web-browser
+http://localhost/answer.me/index.php
+

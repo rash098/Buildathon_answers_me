@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--link rel= "stylesheet" text"type/css" href="basic_comment.css"//-->
+		<title>
+			Comment Submission
+		</title>
+	</head>
+	<body>
+		<h3>
+			Enter comment below: 
+		</h3>
+		<form action = "comment.php" method = "post">
+			Email: <br/><input type = "text" name = "email" id = "email" /><br />
+			Comment:<br />
+ 			 <textarea name='comment' id='comment'></textarea><br />
+
+  			<input type='hidden' name='articleid' id='articleid' value='<? echo $_GET["id"]; ?>' />
+
+			<input type = "Submit" value = "Submit" name = "submit"/>
+
+
+		</form>
+
+	</body>
+</html>
