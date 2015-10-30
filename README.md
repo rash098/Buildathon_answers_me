@@ -22,6 +22,8 @@ and an assortment of pre-styled elements. So, pretty much what you were expectin
   and functions I've been working on (as well as a few by @HugoGiraudel).
 
   (* = still entirely optional if you prefer vanilla CSS :)
+  
+- Securely executes queries by escaping them with real_escape_string
 
 - A ton of other stuff.
 
